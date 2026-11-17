@@ -2,7 +2,11 @@
 
 ## 시연 영상
 
-> **[브라우저 시연 영상을 여기에 첨부하세요 (OBS 등 화면 녹화 도구 사용)**
+> 
+
+https://github.com/user-attachments/assets/12155b0b-d50f-4f44-a796-0e4a76dccaae
+
+
 > 
 > 영상에 포함되어야 할 동작:
 > - 할 일 추가
