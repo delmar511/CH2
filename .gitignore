@@ -1,1 +1,11 @@
 HW.md
+api.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Env
+.env
