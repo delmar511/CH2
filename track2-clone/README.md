@@ -2,13 +2,8 @@
 
 ## 화면 캡처
 
-> **[캡처 이미지를 여기에 추가하세요]**
->
-> - 전체 화면 캡처
-> - 헤더/내비게이션 캡처
-> - 메인(상품 그리드, 카테고리) 캡처
-> - 푸터 캡처
-> - 모바일 반응형 캡처
+<img width="2561" height="4787" alt="gofullpage-localhost-3000-2026-11-17-16_56_44" src="https://github.com/user-attachments/assets/e23fb394-ae5d-4a3b-88de-0296e401f71a" />
+
 
 ## 구현 내용
 
