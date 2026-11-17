@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JR Inc. — Luxury Curated Fashion</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Logo -->
+      <a href="/" class="logo" aria-label="JR Inc. — Home">JR Inc.</a>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item"><a href="#" class="nav-link">New Arrivals</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Designers</a></li>
+
+          <!-- Men dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Men</a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+                <div class="dropdown-featured">
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/1a1a1a/ffffff?text=Men" alt="Men" class="dropdown-img">
+                    <span>Men</span>
+                  </a>
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/333333/ffffff?text=Outerwear" alt="Outerwear" class="dropdown-img">
+                    <span>Outerwear</span>
+                  </a>
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/555555/ffffff?text=Footwear" alt="Footwear" class="dropdown-img">
+                    <span>Footwear</span>
+                  </a>
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="#">+ View All</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Bottoms</a></li>
+                  <li><a href="#">Outerwear</a></li>
+                  <li><a href="#">Footwear</a></li>
+                  <li><a href="#">Suits</a></li>
+                  <li><a href="#">Denim</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Women dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Women</a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+                <div class="dropdown-featured">
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/1a1a1a/ffffff?text=Women" alt="Women" class="dropdown-img">
+                    <span>Women</span>
+                  </a>
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/333333/ffffff?text=Dresses" alt="Dresses" class="dropdown-img">
+                    <span>Dresses</span>
+                  </a>
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="#">+ View All</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Outerwear</a></li>
+                  <li><a href="#">Footwear</a></li>
+                  <li><a href="#">Bags</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Accessories dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Accessories</a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+                <div class="dropdown-featured">
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/222222/ffffff?text=Bags" alt="Bags" class="dropdown-img">
+                    <span>Bags</span>
+                  </a>
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="#">+ View All</a></li>
+                  <li><a href="#">Bags</a></li>
+                  <li><a href="#">Jewelry</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Belts</a></li>
+                  <li><a href="#">Sunglasses</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Art</a></li>
+
+          <!-- Furniture dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Furniture</a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+                <div class="dropdown-featured">
+                  <a href="#" class="dropdown-tile">
+                    <img src="https://via.placeholder.com/200x250/2a2a2a/ffffff?text=Furniture" alt="Furniture" class="dropdown-img">
+                    <span>Furniture</span>
+                  </a>
+                </div>
+                <ul class="dropdown-links">
+                  <li><a href="#">+ View All</a></li>
+                  <li><a href="#">Chairs</a></li>
+                  <li><a href="#">Tables</a></li>
+                  <li><a href="#">Lighting</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Vintage</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Picks</a></li>
+          <li class="nav-item"><a href="#" class="nav-link nav-link--sale">Sale</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Icons -->
+      <div class="header-utils">
+        <button class="icon-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" aria-label="Cart (0 items)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count" aria-label="items in cart">0</span>
+        </button>
+        <!-- Mobile hamburger -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul role="list">
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Designers</a></li>
+        <li>
+          <details>
+            <summary>Men</summary>
+            <ul>
+              <li><a href="#">+ View All Men</a></li>
+              <li><a href="#">Tops</a></li>
+              <li><a href="#">Bottoms</a></li>
+              <li><a href="#">Outerwear</a></li>
+              <li><a href="#">Footwear</a></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Women</summary>
+            <ul>
+              <li><a href="#">+ View All Women</a></li>
+              <li><a href="#">Tops</a></li>
+              <li><a href="#">Dresses</a></li>
+              <li><a href="#">Bags</a></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Accessories</summary>
+            <ul>
+              <li><a href="#">+ View All Accessories</a></li>
+              <li><a href="#">Bags</a></li>
+              <li><a href="#">Jewelry</a></li>
+              <li><a href="#">Hats</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Furniture</a></li>
+        <li><a href="#">Vintage</a></li>
+        <li><a href="#">Picks</a></li>
+        <li><a href="#" class="nav-link--sale">Sale</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main id="main-content">
+
+    <!-- ===== HERO BANNERS ===== -->
+    <section class="hero" aria-label="Promotional banners">
+      <a href="#" class="hero-banner">
+        <div class="hero-banner-img" style="background-color:#1a1a1a;">
+          <div class="hero-banner-content">
+            <span class="hero-label">New Arrivals</span>
+            <h2>Latest Drops</h2>
+            <p>Discover this week's most coveted pieces</p>
+            <span class="hero-cta">Shop Now →</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="hero-banner hero-banner--accent">
+        <div class="hero-banner-img" style="background-color:#2a2a2a;">
+          <div class="hero-banner-content">
+            <span class="hero-label">Chrome Hearts</span>
+            <h2>Exclusive Collection</h2>
+            <p>Handcrafted gothic luxury from LA</p>
+            <span class="hero-cta">View Collection →</span>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- ===== PRODUCT SECTION: New Arrivals ===== -->
+    <section class="product-section" aria-labelledby="new-arrivals-heading">
+      <div class="section-header">
+        <h2 id="new-arrivals-heading" class="section-title">New Arrivals</h2>
+        <a href="#" class="view-all-link">View all →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/1a1a1a/ffffff?text=Product" alt="Vintage Leather Jacket" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Vintage Leather Jacket</h3>
+              <div class="product-footer">
+                <span class="product-price">$4,500</span>
+                <span class="product-size">Size M</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <span class="badge badge--sold-out">Sold Out</span>
+              <img src="https://via.placeholder.com/400x500/333333/ffffff?text=Product" alt="Denim Jacket FW 1995" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Helmut Lang</span>
+              <h3 class="product-name">Denim Jacket FW 1995</h3>
+              <div class="product-footer">
+                <span class="product-price">$1,200</span>
+                <span class="product-size">Size L</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/222222/ffffff?text=Product" alt="Archive Hoodie SS 2006" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Raf Simons</span>
+              <h3 class="product-name">Archive Hoodie SS 2006</h3>
+              <div class="product-footer">
+                <span class="product-price">$2,800</span>
+                <span class="product-size">Size S</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/2d2d2d/ffffff?text=Product" alt="Silver Cross Pendant" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Silver Cross Pendant</h3>
+              <div class="product-footer">
+                <span class="product-price">$780</span>
+                <span class="product-size">OS</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORY TILES ===== -->
+    <section class="category-section" aria-labelledby="shop-category-heading">
+      <h2 id="shop-category-heading" class="visually-hidden">Shop by Category</h2>
+      <div class="category-grid">
+        <a href="#" class="category-tile">
+          <div class="category-tile-img" style="background:#111;">
+            <img src="https://via.placeholder.com/600x700/111111/ffffff?text=Men" alt="" class="category-bg" loading="lazy">
+          </div>
+          <span class="category-label">Men</span>
+        </a>
+        <a href="#" class="category-tile">
+          <div class="category-tile-img" style="background:#1a1a1a;">
+            <img src="https://via.placeholder.com/600x700/1a1a1a/ffffff?text=Women" alt="" class="category-bg" loading="lazy">
+          </div>
+          <span class="category-label">Women</span>
+        </a>
+        <a href="#" class="category-tile">
+          <div class="category-tile-img" style="background:#222;">
+            <img src="https://via.placeholder.com/600x700/222222/ffffff?text=Shop+Deals" alt="" class="category-bg" loading="lazy">
+          </div>
+          <span class="category-label">Shop Deals</span>
+        </a>
+        <a href="#" class="category-tile">
+          <div class="category-tile-img" style="background:#2a2a2a;">
+            <img src="https://via.placeholder.com/600x700/2a2a2a/ffffff?text=Chrome+Hearts" alt="" class="category-bg" loading="lazy">
+          </div>
+          <span class="category-label">Chrome Hearts</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT SECTION: Chrome Hearts ===== -->
+    <section class="product-section" aria-labelledby="chrome-hearts-heading">
+      <div class="section-header">
+        <h2 id="chrome-hearts-heading" class="section-title">Chrome Hearts</h2>
+        <a href="#" class="view-all-link">View all →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/0d0d0d/ffffff?text=Product" alt="Dagger Ring" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Dagger Ring</h3>
+              <div class="product-footer">
+                <span class="product-price">$960</span>
+                <span class="product-size">Size 8</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/181818/ffffff?text=Product" alt="Scroll Bracelet" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Scroll Bracelet</h3>
+              <div class="product-footer">
+                <span class="product-price">$2,400</span>
+                <span class="product-size">OS</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <span class="badge badge--sold-out">Sold Out</span>
+              <img src="https://via.placeholder.com/400x500/252525/ffffff?text=Product" alt="Floral Cross Hoodie" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Floral Cross Hoodie</h3>
+              <div class="product-footer">
+                <span class="product-price">$3,200</span>
+                <span class="product-size">Size XL</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/303030/ffffff?text=Product" alt="Leather Zip Jacket" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chrome Hearts</span>
+              <h3 class="product-name">Leather Zip Jacket</h3>
+              <div class="product-footer">
+                <span class="product-price">$8,500</span>
+                <span class="product-size">Size M</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONSIGN PROMO BLOCK ===== -->
+    <section class="promo-block" aria-label="Consign with us">
+      <div class="promo-block-inner">
+        <div class="promo-text">
+          <h2>Consign with Us</h2>
+          <p class="promo-tagline">Concierge Service. Fast Payouts.</p>
+          <p>Up to <strong>80% commission</strong> on every piece sold. We handle everything.</p>
+          <a href="#" class="btn-promo">Get Started →</a>
+        </div>
+        <div class="promo-brand-desc">
+          <h3>About JR Inc.</h3>
+          <p>Curated art, clothing, and accessories focused on limited-edition collaborations and vintage archival pieces from the world's most coveted luxury and streetwear labels.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT SECTION: Womens ===== -->
+    <section class="product-section" aria-labelledby="womens-heading">
+      <div class="section-header">
+        <h2 id="womens-heading" class="section-title">Womens</h2>
+        <a href="#" class="view-all-link">View all →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/0a0a0a/ffffff?text=Product" alt="Runway Gown" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Givenchy</span>
+              <h3 class="product-name">Archive Runway Gown FW 2003</h3>
+              <div class="product-footer">
+                <span class="product-price">$6,200</span>
+                <span class="product-size">Size 40</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/161616/ffffff?text=Product" alt="Platform Boots" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Rick Owens</span>
+              <h3 class="product-name">Leather Platform Boots</h3>
+              <div class="product-footer">
+                <span class="product-price">$1,850</span>
+                <span class="product-size">EU 38</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <img src="https://via.placeholder.com/400x500/202020/ffffff?text=Product" alt="Archive Coat" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Comme des Garçons</span>
+              <h3 class="product-name">Deconstructed Coat SS 1997</h3>
+              <div class="product-footer">
+                <span class="product-price">$5,400</span>
+                <span class="product-size">Size S</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="product-card">
+          <a href="#" class="product-card-link">
+            <div class="product-image-wrapper">
+              <span class="badge badge--new">New</span>
+              <img src="https://via.placeholder.com/400x500/2b2b2b/ffffff?text=Product" alt="Quilted Bag" class="product-image" loading="lazy">
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chanel</span>
+              <h3 class="product-name">Quilted CC Flap Bag</h3>
+              <div class="product-footer">
+                <span class="product-price">$7,800</span>
+                <span class="product-size">OS</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <!-- Newsletter -->
+      <div class="footer-newsletter">
+        <h3>Stay in the loop</h3>
+        <p>Get 5% off your first order when you subscribe.</p>
+        <form class="newsletter-form" aria-label="Newsletter signup">
+          <label for="newsletter-email" class="visually-hidden">Email address</label>
+          <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Footer Links -->
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sold Archive</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sell With Us</h4>
+          <ul>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Commission Rates</a></li>
+            <li><a href="#">Submit a Piece</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Customer Care</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 JR Inc. All rights reserved.</p>
+      <ul class="footer-legal" role="list">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Data Preferences</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const hamburger = document.getElementById('hamburger-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', String(!isOpen));
+      mobileNav.hidden = isOpen;
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-item.has-dropdown')) {
+        document.querySelectorAll('.nav-item.has-dropdown').forEach(el => {
+          el.querySelector('.nav-link').setAttribute('aria-expanded', 'false');
+        });
+      }
+    });
+
+    // Toggle dropdowns
+    document.querySelectorAll('.nav-item.has-dropdown > .nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const isExpanded = link.getAttribute('aria-expanded') === 'true';
+        document.querySelectorAll('.nav-item.has-dropdown > .nav-link').forEach(l =>
+          l.setAttribute('aria-expanded', 'false')
+        );
+        link.setAttribute('aria-expanded', String(!isExpanded));
+      });
+    });
+  </script>
+</body>
+</html>
